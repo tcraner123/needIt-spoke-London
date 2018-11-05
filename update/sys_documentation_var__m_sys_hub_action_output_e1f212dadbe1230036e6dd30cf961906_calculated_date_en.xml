@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="calculated_date" label="Calculated Date" language="en" table="var__m_sys_hub_action_output_e1f212dadbe1230036e6dd30cf961906">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>calculated_date</element>
+            <help/>
+            <hint/>
+            <label>Calculated Date</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_e1f212dadbe1230036e6dd30cf961906</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tcrane</sys_created_by>
+            <sys_created_on>2018-11-05 18:38:46</sys_created_on>
+            <sys_id>bdf212dadbe1230036e6dd30cf96196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Calculated Date</sys_name>
+            <sys_package display_value="NeedIt Spoke" source="x_191469_needit_sp">d0cb8e9edba1230036e6dd30cf9619fa</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt Spoke">d0cb8e9edba1230036e6dd30cf9619fa</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e1f212dadbe1230036e6dd30cf961906_calculated_date_en</sys_update_name>
+            <sys_updated_by>tcrane</sys_updated_by>
+            <sys_updated_on>2018-11-05 18:38:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

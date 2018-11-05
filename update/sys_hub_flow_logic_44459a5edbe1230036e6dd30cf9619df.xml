@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c8459a5edbe1230036e6dd30cf9619dd</block>
+        <comment>add task to follow up</comment>
+        <connected_to/>
+        <display_text/>
+        <flow display_value="Handle Overdue NeedIt Tasks">4143569adbe1230036e6dd30cf96198f</flow>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned>follow_up_task</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tcrane</sys_created_by>
+        <sys_created_on>2018-11-05 18:48:45</sys_created_on>
+        <sys_id>44459a5edbe1230036e6dd30cf9619df</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt Spoke" source="x_191469_needit_sp">d0cb8e9edba1230036e6dd30cf9619fa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">d0cb8e9edba1230036e6dd30cf9619fa</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_44459a5edbe1230036e6dd30cf9619df</sys_update_name>
+        <sys_updated_by>tcrane</sys_updated_by>
+        <sys_updated_on>2018-11-05 18:53:17</sys_updated_on>
+        <ui_id>b7365bab-6299-4a0c-9669-1c25e342580f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=44459a5edbe1230036e6dd30cf9619df"/>
+    <sys_element_mapping action="delete_multiple" query="id=44459a5edbe1230036e6dd30cf9619df"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>follow_up_task</field>
+        <id>44459a5edbe1230036e6dd30cf9619df</id>
+        <sys_created_by>tcrane</sys_created_by>
+        <sys_created_on>2018-11-05 18:48:45</sys_created_on>
+        <sys_id>d4459a5edbe1230036e6dd30cf9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tcrane</sys_updated_by>
+        <sys_updated_on>2018-11-05 18:48:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_4143569adbe1230036e6dd30cf96198f</table>
+        <value>{{6df8adcd-4de7-4728-8a76-53c3a0f6002d.Record}}</value>
+    </sys_element_mapping>
+</record_update>

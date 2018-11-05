@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Input a number and return the date that many days ago</description>
+        <internal_name>get_days_ago_date</internal_name>
+        <label_cache>[{"name":"{{action.days_ago}}","label":"action➛Days Ago","type":"action","ref":""},{"name":"{{step[c6bc1f3a-565f-4c1f-9a84-a409040ae744].n}}","label":"step➛Calculate daysAgo Date➛n","type":"step","ref":""},{"name":"{{step[c6bc1f3a-565f-4c1f-9a84-a409040ae744].ne}}","label":"step➛Calculate daysAgo Date➛ne","type":"step","ref":""},{"name":"{{step[c6bc1f3a-565f-4c1f-9a84-a409040ae744].new}}","label":"step➛Calculate daysAgo Date➛new","type":"step","ref":""},{"name":"{{step[c6bc1f3a-565f-4c1f-9a84-a409040ae744].new_}}","label":"step➛Calculate daysAgo Date➛new_","type":"step","ref":""},{"name":"{{step[c6bc1f3a-565f-4c1f-9a84-a409040ae744].new_d}}","label":"step➛Calculate daysAgo Date➛new_d","type":"step","ref":""},{"name":"{{step[c6bc1f3a-565f-4c1f-9a84-a409040ae744].new_da}}","label":"step➛Calculate daysAgo Date➛new_da","type":"step","ref":""},{"name":"{{step[c6bc1f3a-565f-4c1f-9a84-a409040ae744].new_dat}}","label":"step➛Calculate daysAgo Date➛new_dat","type":"step","ref":""},{"name":"{{step[c6bc1f3a-565f-4c1f-9a84-a409040ae744].new_date}}","label":"step➛Calculate daysAgo Date➛new_date","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Get Days Ago Date</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get Days Ago Date">f8ef8ed6dbe1230036e6dd30cf961940</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>tcrane</sys_created_by>
+        <sys_created_on>2018-11-05 18:38:46</sys_created_on>
+        <sys_id>3df212dadbe1230036e6dd30cf961972</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get Days Ago Date</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_191469_needit_sp">d0cb8e9edba1230036e6dd30cf9619fa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">d0cb8e9edba1230036e6dd30cf9619fa</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_3df212dadbe1230036e6dd30cf961972</sys_update_name>
+        <sys_updated_by>tcrane</sys_updated_by>
+        <sys_updated_on>2018-11-05 18:38:47</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=3df212dadbe1230036e6dd30cf961972"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3df212dadbe1230036e6dd30cf961972"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>3df212dadbe1230036e6dd30cf961972</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tcrane</sys_created_by>
+        <sys_created_on>2018-11-05 18:38:47</sys_created_on>
+        <sys_id>8af212dadbe1230036e6dd30cf9619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tcrane</sys_updated_by>
+        <sys_updated_on>2018-11-05 18:38:47</sys_updated_on>
+        <value/>
+        <variable display_value="">c6f212dadbe1230036e6dd30cf9619bb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3df212dadbe1230036e6dd30cf961972"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>calculated_date</field>
+        <id>3df212dadbe1230036e6dd30cf961972</id>
+        <sys_created_by>tcrane</sys_created_by>
+        <sys_created_on>2018-11-05 18:38:47</sys_created_on>
+        <sys_id>0af212dadbe1230036e6dd30cf9619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tcrane</sys_updated_by>
+        <sys_updated_on>2018-11-05 18:38:47</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3df212dadbe1230036e6dd30cf961972</table>
+        <value>{{step[c6bc1f3a-565f-4c1f-9a84-a409040ae744].new_date}}</value>
+    </sys_element_mapping>
+</record_update>
